@@ -33,3 +33,30 @@
   // console.log("Hello world")
   // }
   console.log(typeof hero)
+
+
+  // **************************************
+
+  //stack(primitive), Heap(Non-Primitive)
+  //stack mein copy milti hai aur heap mein original value mein change 
+  // hota hai 
+
+  let myYoutubename ="Priyanshuytcom"
+
+  let anothername =myYoutubename
+  anothername = "chaiaurcode"
+
+  console.log(myYoutubename);
+  console.log(anothername);
+
+  let userOne= {
+       email: "user@google.com",
+       upi: "1pthpdc",
+  }
+
+  let userTwo = userOne
+
+  userTwo.email ="priyanshu@google.com"
+
+  console.log(userOne.email)
+  console.log(userTwo.email)
